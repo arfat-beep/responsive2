@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+p{
+    font-size: 14px;
+    padding: 0 ;
+}
+
+.menu ul li{
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 175%;
+    text-align: center;
+    font-weight: 800;
+}
+h1 span:first-child{
+    color: black;
+}
+h1 span:last-child{
+    color:  #f25f11;
+}
+
+section{
+    margin: 30px 0;
+}
+header{
+    background: linear-gradient(rgba(118, 118, 118, 0.48), rgba(118, 118, 118, 0.85)), url('../image/imac-606765_1920.jpg');
+    width: 100%;
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-logo span:first-child{
+    color: #fff;
+    font-weight: 600;
+}
+.main-logo span:last-child{
+    color: #f25f11;
+    font-weight: 600;
+}
+.hero-test{
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 80%;
+    border-radius: 20px;
+    float: left;
+    
+}
+.btn-full{
+    
+    color: #fff;
+    background-color: #f25f11;
+    margin-left: 50px;
+}
+.btn-show{
+    
+    color: #fff;
+    background-color: #72442c;
+    margin-left: 20px;
+    
+}
+
+.btn-full:hover{
+    color: #000;
+    background-color: rgba(242, 95, 17, 0.66);
+    
+}
+.bns{
+    display: block;
+}
+
+.btn-ghost{
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    
+}
+.btn-ghost:hover{
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.59);
+    border: 1px solid transparent;
+}
+.aa{
+    text-align: center;
+    margin-left: 90px;
+}
+.our-work{text-align: center;
+    line-height: 20px;
+
+}
+.work-icon{
+    margin: 10px;
+    padding: 25px;
+    width: 100px;
+    border: 1px solid #f25f11;
+    border-radius: 50%;
+}
+input[type=name]{
+    float: right;
+    vertical-align: middle;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    top: 200px;
+    position: absolute;
+}
+input::placeholder,
+textarea{
+    color: #3c3c3c;
+    padding-left: 20px;
+}
+.section-subscribe{
+    height: 450px;
+    background:linear-gradient(rgba(106, 106, 106, 0.67),rgba(109, 109, 109, 0.83)), url('../image/tablet-791051.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ss{
+    padding: 10px 80px;
+    position: absolute;
+    top: 200px;
+}
+.after-h1{
+    width: 400px;
+    text-align: center;
+}
+.works-image{
+    margin-top: 30px;
+    height: 230px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform .3s;
+    position: relative;
+}
+.works-image:hover{
+    transform: scale(1.01);
+}
+.wrapper{
+    background: url('../image/imac-606765_1920.jpg');
+    height: 230px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    background-position: center;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+}
+.overlay{
+    padding: 25px;
+    display: none;
+    transition: display .2s;
+    border-radius: 20px;
+    height: 230px;
+}
+.wrapper:hover .overlay{
+    display: block;
+    background-color: rgba(242, 95, 17, 0.63);
+}
+.section-slider{
+    background:linear-gradient(rgba(106, 106, 106, 0.67),rgba(109, 109, 109, 0.83)), url("../image/woman-690036.jpg");
+    text-align: center;
+    height: 450px;
+    margin: auto;
+    padding-top: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.jhon-img{
+    height: 50px;
+    border-radius: 50%;
+}
+.section-team{
+    text-align: center;
+    
+}
+.section-team div{
+    padding-top: 10px;
+}
+.member-img{
+    height: 293px;
+    width: auto;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform .2s;
+}
+.member-img:hover{
+    transform: scale(1.02);
+}
+.icon-small{
+    color: #2c2c2c;
+}
+.icon-small:hover{
+    color: #f25f11;
+}
+.teams{
+    transform: scale(1);
+    transition: transform .2s;
+}
+.teams:hover{
+    transform: scale(1.02);
+}
+.hello-input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+textarea{
+    width: 98%;
+    height: 100px;
+    border-radius: 20px;
+}
+.icon-color{
+    font-size: 120%;
+    margin-top: 20px;
+    text-align: right;
+}
+.icon-color:nth-of-type(1){
+    color: #3b5998;
+
+}
+.icon-color:nth-of-type(3){
+    color: #dd4b39;
+
+}
+.icon-color:nth-of-type(4){
+    color: #3b5998;
+
+}
+.icon-color:nth-of-type(5){
+    color: #1769ff;
+
+}
+.section-hello{
+    background:linear-gradient(rgba(118, 118, 118, 0.92),rgba(118, 118, 118, 0.92)), url("../image/city-937541.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    padding-top: 40px;
+}
+.copy{
+    float: right;
+}
+
+
+
+/*;SAKOUJGHSDLJKSDFLK;JDSHKL;JDSHNSDF;LKJG*/
